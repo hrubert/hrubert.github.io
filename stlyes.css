@@ -1,0 +1,75 @@
+body {
+    background-image: url("images/background.jpg");
+    margin: 0;
+}
+
+nav {
+    background-color: purple;
+    height: 50px;
+    width: 100%;
+    top: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav li {
+    display: inline;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    padding: 15px;
+}
+
+a:hover {
+    color: yellow;
+    font-size: 30px;
+}
+
+#frontImg {
+    width: 500px;
+    height: 500px;
+    display: block;
+    margin: auto;
+    border-radius: 15%
+}
+
+h1 {
+    background-color: aquamarine;
+    color: purple;
+    font-size: 90px;
+    text-align: center;
+}
+
+figcaption {
+    background-color: purple;
+    color: white;
+    font-size: 24px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    text-align: center;
+}
+
+p {
+    background-color: aquamarine;
+}
+
+#blurb {
+    font-size: 20px;
+    padding: 20px;
+}
+
+footer {
+    text-align: right;
+    margin-right: 2px;
+    margin-left: auto;
+    width: 225px;
+}
